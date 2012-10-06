@@ -15,6 +15,18 @@ class Kohana_SOCS {
     
     protected static $_drivers = array();
     
+    protected static $_config  = NULL;
+    
+    
+    public $base_url = NULL;
+    
+    
+    public function __construct()
+    {
+        $this->base_url = $_SERVER['SERVER_NAME'];
+        
+    }
+    
     
     protected static function instance()
     {
@@ -29,6 +41,16 @@ class Kohana_SOCS {
     }
     
     
+    protected static function config()
+    {
+        if (!self::$_config) {
+            self::$_config = Kohana::$config->load('socs');
+        }
+        
+        return self::$_config;
+    }
+    
+    
     /**
     * Возвращает объект доступного драйвера
     * 
@@ -37,6 +59,42 @@ class Kohana_SOCS {
     public static function driver($driver_name)
     {
         return self::instance()->get_driver($driver_name);
+    }
+    
+    
+    /**
+    * Возвращает URL для переадресации на авторизацию в указанной соцсети
+    * 
+    */
+    public static function auth_location()
+    {
+        $driver = isset($_GET['d'])    ? $_GET['d']    : NULL;
+        $from   = isset($_GET['from']) ? $_GET['from'] : '/';
+        
+        $location = '/';
+        
+        if ($driver AND ( $driver = self::instance()->get_driver($driver) ) !== NULL) {
+            
+            $location = $driver->get_url('auth_url', array(
+                'client_id'     => $driver->config('client_id'),
+                'redirect_uri'  => 'http://' . self::instance()->base_url . '/auth/socs/' . $driver->get_name() . '?from=' . $from,
+                'scope'         => $driver->config('scope'),
+                'response_type' => 'code'
+            )); 
+        }
+        
+        return $location;
+    }
+    
+    
+    /**
+    * Определение пользователя при успешном авторизации в соцсети
+    * 
+    * @param mixed $result_driver
+    */
+    public static function authentication($result_driver)
+    {
+        return 'user-2';
     }
     
     
@@ -73,9 +131,8 @@ class Kohana_SOCS {
         $driver_name = strtolower($driver_name);
         $driver_class_name = 'Driver_' . ucfirst($driver_name)  . '_Main';
         
-        $DRIVER_INTERFACE = self::DRIVER_INTERFACE;
         
-        if (class_exists($driver_class_name) AND class_implements($driver_class_name, $DRIVER_INTERFACE)) {
+        if (class_exists($driver_class_name) AND class_implements($driver_class_name, self::DRIVER_INTERFACE)) {
             self::$_drivers[$driver_name] = new $driver_class_name();
             
             return self::$_drivers[$driver_name];
