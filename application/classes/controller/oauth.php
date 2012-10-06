@@ -1,75 +1,66 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 abstract class Controller_OAuth extends Controller {
-
-    protected $provider;
-
-    protected $consumer;
-
-    protected $token;
-
+    /**
+     * @var OAuth2
+     */
+    protected $_oauth;
+    /**
+     * @var OAuth_Token
+     */
+    protected $_token;
+    /**
+     * @var OAuth2_Provider
+     */
+    protected $_provider;
+    /**
+     * @var OAuth_Client
+     */
+    protected $_consumer;
+    protected $_cookie;
+ 
+    public $name;
+ 
     public function before()
     {
         parent::before();
-
-        // Load the configuration for this provider
-        $config = Kohana::$config->load("oauth.{$this->provider}");
-
-        // Create an consumer from the config
-        $this->consumer = OAuth_Consumer::factory($config);
-
-        // Load the provider
-        $this->provider = OAuth_Provider::factory($this->provider);
-
-        if ($token = Cookie::get('oauth_token'))
+        $this->_oauth = new OAuth2;
+        // создаем объект консумера, загружая в него настройки приложения из конфига
+        $this->_consumer = OAuth2_Client::factory(Kohana::$config->load('oauth.'.$this->name));
+        $this->_cookie = 'oauth_cookie_'.$this->name;
+        // создаем объект провайдера
+        $this->_provider = $this->_oauth->provider($this->name);
+        if ($token = Cookie::get($this->_cookie))
         {
-            // Get the token from storage
-            $this->token = unserialize($token);
+            // а вдруг мы уже имеем в куках временный токен (code)
+            $this->_token = unserialize($token);
         }
     }
-
+ 
     public function action_login()
     {
-        // We will need a callback URL for the user to return to
-        $callback = URL::site($this->request->uri(array('action' => 'complete')), Request::$protocol);
-
-        // Add the callback URL to the consumer
-        $this->consumer->callback($callback);
-
-        // Get a request token for the consumer
-        $token = $this->provider->request_token($this->consumer);
-
-        // Store the token
-        Cookie::set('oauth_token', serialize($token));
-
-        // Redirect to the twitter login page
-        $this->request->redirect($this->provider->authorize_url($token));
+        // подготавливаем callback для передачи провайдеру
+        $callback = $this->request->url(array('action' => 'complete'), Request::initial()->protocol());
+        $this->_consumer->callback($callback);
+        // редиректим пользователя на страницу провайдера
+        $this->request->redirect($this->_provider->authorize_url($this->_consumer));
     }
-
+ 
     public function action_complete()
     {
-        if ($this->token AND $this->token->token !== Arr::get($_REQUEST, 'oauth_token'))
+        // мы должны получить code в GET-строке 
+        $code = $this->request->query('code');
+        if ( ! $code)
         {
-            // Delete the token, it is not valid
-            Cookie::delete('oauth_token');
-
-            // Send the user back to the beginning
-            $this->request->redirect($this->request->uri(array('action' => 'index')));
+            // по идее надо проверять наличие кодов ошибок и т.д.
+            return;
         }
-
-        // Get the verifier
-        $verifier = Arr::get($_REQUEST, 'oauth_verifier');
-
-        // Store the verifier in the token
-        $this->token->verifier($verifier);
-
-        // Exchange the request token for an access token
-        $token = $this->provider->access_token($this->consumer, $this->token);
-
-        // Store the token
-        Cookie::set('oauth_token', serialize($token));
-
-        $this->request->redirect($this->request->uri(array('action' => FALSE)));
+        // меняем код временного токена на токен доступа. Используется curl
+        $this->_token = $this->_provider->access_token($this->_consumer, $code);
+        // сохраняем токен в куке, далее можно его использовать для получения данных пользователя
+        Cookie::set($this->_cookie, serialize($this->_token));
+        // перенаправляем куда-нибудь - аутентификация закончена, токен получен
+        $this->request->redirect('/');
     }
-
-} // End
+ 
+}
