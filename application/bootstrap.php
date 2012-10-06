@@ -107,9 +107,19 @@ Kohana::modules(array(
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
     // 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-	 'socs'       => MODPATH.'socs',  // User guide and API documentation
+     'oauth'      => MODPATH.'oauth',      // User guide and API documentation
+	 'socs'       => MODPATH.'socs',       // User guide and API documentation
 	));
 
+/**
+ * oAuth 2.0
+ */
+Route::set('oauth', 'oauth/(<controller>(/<action>(/<id>)))')
+    ->defaults(array(
+        'directory'  => 'oauth',
+        'controller' => 'index',
+        'action'     => 'index',
+    ));
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
