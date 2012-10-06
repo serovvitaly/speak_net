@@ -7,6 +7,7 @@ class Controller_Index extends Controller {
         
         $url = SOCS::driver('facebook')->auth_url();
         
+        $url = '/oauth/facebook/login?from=' . $_SERVER['REQUEST_URI'];
         
         echo "<a href='$url'>login</a>";
         

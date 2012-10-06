@@ -39,8 +39,12 @@ abstract class Controller_OAuth extends Controller {
  
     public function action_login()
     {
+        $from = isset($_GET['from']) ? $_GET['from'] : '/';
+        
         // подготавливаем callback для передачи провайдеру
-        $callback = $this->request->url(array('action' => 'complete'), Request::initial()->protocol());
+        $callback = 'http://' . $_SERVER['SERVER_NAME'] . '/oauth/' . $this->name . '/complete';
+        //echo $callback; return;
+        //$callback = 'http://' . $_SERVER['SERVER_NAME'] . $from;
         $this->_consumer->callback($callback);
         // редиректим пользователя на страницу провайдера
         $this->request->redirect($this->_provider->authorize_url($this->_consumer));

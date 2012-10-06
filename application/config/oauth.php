@@ -4,7 +4,7 @@
  */
 return array(
     'facebook' => array(
-        'id'     => 292245737552578,
+        'id'     => '292245737552578',
         'secret' => '5eb9174eb41a78b4d73aa575023af82b'
     )
 );

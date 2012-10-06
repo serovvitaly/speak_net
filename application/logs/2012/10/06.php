@@ -393,3 +393,183 @@
 --
 #0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
 #1 {main}
+2012-10-06 09:10:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:10:54 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:11:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:11:41 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:11:44 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:11:44 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:11:47 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:11:47 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:19:01 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:19:01 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:19:08 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:19:08 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:19:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:19:22 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:19:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:19:26 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:23:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:23:18 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:23:35 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:23:35 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:25:07 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:25:07 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:25:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:25:23 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:26:48 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:26:48 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:28:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:28:31 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:28:33 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:28:33 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:28:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:28:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:30:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:30:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:31:42 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:31:42 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:31:46 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:31:46 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:32:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:32:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:34:14 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:34:14 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:38:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:38:23 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:40:49 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:40:49 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:40:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:40:50 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:40:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:40:51 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:40:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:40:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:41:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:41:16 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:41:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:41:18 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:41:21 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:41:21 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:41:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:41:23 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:42:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:42:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:42:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:42:59 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 09:43:13 --- ERROR: Kohana_OAuth_Exception [ 0 ]: Error fetching remote https://graph.facebook.com/oauth/access_token [ status 0 ] SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed ~ MODPATH\oauth\classes\kohana\oauth.php [ 72 ]
+2012-10-06 09:43:13 --- STRACE: Kohana_OAuth_Exception [ 0 ]: Error fetching remote https://graph.facebook.com/oauth/access_token [ status 0 ] SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed ~ MODPATH\oauth\classes\kohana\oauth.php [ 72 ]
+--
+#0 D:\domains\speak_net\modules\oauth\classes\kohana\oauth\request.php(514): Kohana_OAuth::remote('https://graph.f...', Array)
+#1 D:\domains\speak_net\modules\oauth\classes\kohana\oauth2\request\token.php(9): Kohana_OAuth_Request->execute(NULL)
+#2 D:\domains\speak_net\modules\oauth\classes\kohana\oauth2\provider.php(76): Kohana_OAuth2_Request_Token->execute()
+#3 D:\domains\speak_net\application\classes\controller\oauth.php(63): Kohana_OAuth2_Provider->access_token(Object(OAuth2_Client), 'AQBaOcJQybBzKho...')
+#4 [internal function]: Controller_OAuth->action_complete()
+#5 D:\domains\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#6 D:\domains\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#7 D:\domains\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#8 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#9 {main}
+2012-10-06 09:43:14 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 09:43:14 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
