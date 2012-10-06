@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct access allowed.');
 
-class Driver_Facebook_Main extends Driver_Prototype implements Driver_Socialnet {
+class Provider_Facebook_Main extends Provider_Prototype implements Provider_Socialnet {
 
     protected $_urls_list = array(
         'auth_url' => 'https://graph.facebook.com/oauth/authorize'

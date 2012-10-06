@@ -573,3 +573,971 @@ error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify faile
 --
 #0 D:\domains\speak_net\www\index.php(109): Kohana_Request->execute()
 #1 {main}
+2012-10-06 10:13:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:13:16 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:13:20 --- ERROR: ErrorException [ 1 ]: Class 'SOCS_OAuth_Controller' not found ~ APPPATH\classes\controller\oauth\facebook.php [ 3 ]
+2012-10-06 10:13:20 --- STRACE: ErrorException [ 1 ]: Class 'SOCS_OAuth_Controller' not found ~ APPPATH\classes\controller\oauth\facebook.php [ 3 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:13:20 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:13:20 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:14:08 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:14:08 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:16:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:16:18 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:16:20 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:16:20 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:16:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:16:24 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:16:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:16:25 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:16:28 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:16:28 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:16:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:16:30 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:17:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:17:25 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:17:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:17:26 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:18:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:18:24 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:18:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:18:26 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:18:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:18:26 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:18:28 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:18:28 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:18:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:18:30 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:19:35 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:19:35 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:19:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:19:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:19:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:19:40 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:20:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:20:06 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:20:14 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:20:14 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:20:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:20:22 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:20:23 --- ERROR: ErrorException [ 1 ]: Using $this when not in object context ~ MODPATH\socs\classes\kohana\socs.php [ 97 ]
+2012-10-06 10:20:23 --- STRACE: ErrorException [ 1 ]: Using $this when not in object context ~ MODPATH\socs\classes\kohana\socs.php [ 97 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:20:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:20:23 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:32:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:32:51 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:32:55 --- ERROR: ErrorException [ 8 ]: Undefined variable: user ~ APPPATH\classes\controller\oauth.php [ 50 ]
+2012-10-06 10:32:55 --- STRACE: ErrorException [ 8 ]: Undefined variable: user ~ APPPATH\classes\controller\oauth.php [ 50 ]
+--
+#0 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(50): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\OPENSERVER\h...', 50, Array)
+#1 [internal function]: Controller_OAuth->action_login()
+#2 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#6 {main}
+2012-10-06 10:32:55 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:32:55 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:45:48 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:45:48 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(NULL)
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:45:48 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:45:48 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:46:29 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:46:29 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(59): Kohana_SOCS::oauth(NULL)
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:46:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:46:30 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:46:42 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:46:42 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(59): Kohana_SOCS::oauth(NULL)
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:46:42 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:46:42 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:47:27 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:47:27 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(59): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:47:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:47:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:47:29 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:47:29 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(59): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:47:29 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:47:29 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:47:31 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:47:31 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(59): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:47:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:47:31 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:47:42 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:47:42 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must be an instance of Provider_Prototype, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(59): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:47:42 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:47:42 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:48:24 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must implement interface Provider_Socialnet, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:48:24 --- STRACE: ErrorException [ 4096 ]: Argument 1 passed to OAuth_Connector::__construct() must implement interface Provider_Socialnet, none given, called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:48:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:48:24 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:38 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:38 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:39 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:39 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:40 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:40 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:40 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:40 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:40 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:40 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:41 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:41 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:41 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:43 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:43 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:43 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:43 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:55 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:55 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:56 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:56 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:56 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:56 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:56 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:56 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:56 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:56 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:56 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:56 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:56 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:56 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:57 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:57 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:57 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:57 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:57 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:57 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:57 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:49:58 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+2012-10-06 10:49:58 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::__construct(), called in D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php on line 59 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 8 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(8): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 8, Array)
+#1 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct()
+#2 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#3 [internal function]: Controller_OAuth->action_login()
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-10-06 10:49:58 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:49:58 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:51:01 --- ERROR: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+2012-10-06 10:51:01 --- STRACE: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:51:02 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:51:02 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:53:19 --- ERROR: Exception [ 0 ]: Конструктор класса OAuth_Connector ожидает объект типа Provider_Prototype ~ MODPATH\socs\classes\oauth\connector.php [ 10 ]
+2012-10-06 10:53:19 --- STRACE: Exception [ 0 ]: Конструктор класса OAuth_Connector ожидает объект типа Provider_Prototype ~ MODPATH\socs\classes\oauth\connector.php [ 10 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct(Object(Provider_Facebook_Main))
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#2 [internal function]: Controller_OAuth->action_login()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 10:53:19 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:53:19 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:54:01 --- ERROR: Exception [ 0 ]: Конструктор класса OAuth_Connector ожидает объект типа Provider_Prototype ~ MODPATH\socs\classes\oauth\connector.php [ 13 ]
+2012-10-06 10:54:01 --- STRACE: Exception [ 0 ]: Конструктор класса OAuth_Connector ожидает объект типа Provider_Prototype ~ MODPATH\socs\classes\oauth\connector.php [ 13 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct(Object(Provider_Facebook_Main))
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#2 [internal function]: Controller_OAuth->action_login()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 10:54:01 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:54:01 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:54:04 --- ERROR: Exception [ 0 ]: Конструктор класса OAuth_Connector ожидает объект типа Provider_Prototype ~ MODPATH\socs\classes\oauth\connector.php [ 13 ]
+2012-10-06 10:54:04 --- STRACE: Exception [ 0 ]: Конструктор класса OAuth_Connector ожидает объект типа Provider_Prototype ~ MODPATH\socs\classes\oauth\connector.php [ 13 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\kohana\socs.php(59): OAuth_Connector->__construct(Object(Provider_Facebook_Main))
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): Kohana_SOCS::oauth(Object(Provider_Facebook_Main))
+#2 [internal function]: Controller_OAuth->action_login()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 10:54:04 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:54:04 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:54:18 --- ERROR: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+2012-10-06 10:54:18 --- STRACE: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:54:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:54:18 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:54:36 --- ERROR: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+2012-10-06 10:54:36 --- STRACE: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:54:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:54:36 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:54:37 --- ERROR: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+2012-10-06 10:54:37 --- STRACE: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:54:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:54:37 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:54:37 --- ERROR: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+2012-10-06 10:54:37 --- STRACE: ErrorException [ 1 ]: Call to undefined method OAuth_Connector::instance() ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:54:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:54:37 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:55:37 --- ERROR: ErrorException [ 8 ]: Undefined variable: from ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+2012-10-06 10:55:37 --- STRACE: ErrorException [ 8 ]: Undefined variable: from ~ MODPATH\socs\classes\oauth\connector.php [ 25 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(25): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\OPENSERVER\h...', 25, Array)
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): OAuth_Connector->authorize_url()
+#2 [internal function]: Controller_OAuth->action_login()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 10:55:38 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:55:38 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:56:31 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::authorize_url(), called in D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php on line 57 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 20 ]
+2012-10-06 10:56:31 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::authorize_url(), called in D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php on line 57 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 20 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(20): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 20, Array)
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): OAuth_Connector->authorize_url()
+#2 [internal function]: Controller_OAuth->action_login()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 10:56:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:56:31 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:58:52 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected '}' ~ MODPATH\socs\classes\oauth\connector.php [ 28 ]
+2012-10-06 10:58:52 --- STRACE: ErrorException [ 4 ]: syntax error, unexpected '}' ~ MODPATH\socs\classes\oauth\connector.php [ 28 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:58:52 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:58:52 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:59:02 --- ERROR: ErrorException [ 1 ]: Call to a member function authorize_url() on a non-object ~ APPPATH\classes\controller\oauth.php [ 57 ]
+2012-10-06 10:59:02 --- STRACE: ErrorException [ 1 ]: Call to a member function authorize_url() on a non-object ~ APPPATH\classes\controller\oauth.php [ 57 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 10:59:02 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:59:02 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 10:59:43 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::authorize_url(), called in D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php on line 57 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 33 ]
+2012-10-06 10:59:43 --- STRACE: ErrorException [ 2 ]: Missing argument 1 for OAuth_Connector::authorize_url(), called in D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php on line 57 and defined ~ MODPATH\socs\classes\oauth\connector.php [ 33 ]
+--
+#0 D:\OPENSERVER\html\speak_net\modules\socs\classes\oauth\connector.php(33): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 33, Array)
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(57): OAuth_Connector->authorize_url()
+#2 [internal function]: Controller_OAuth->action_login()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 10:59:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 10:59:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:00:59 --- ERROR: ErrorException [ 1 ]: Call to a member function access_token() on a non-object ~ APPPATH\classes\controller\oauth.php [ 82 ]
+2012-10-06 11:00:59 --- STRACE: ErrorException [ 1 ]: Call to a member function access_token() on a non-object ~ APPPATH\classes\controller\oauth.php [ 82 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 11:00:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:00:59 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:05:39 --- ERROR: ErrorException [ 1 ]: Call to undefined method Provider_Facebook_Main::access_token() ~ APPPATH\classes\controller\oauth.php [ 75 ]
+2012-10-06 11:05:39 --- STRACE: ErrorException [ 1 ]: Call to undefined method Provider_Facebook_Main::access_token() ~ APPPATH\classes\controller\oauth.php [ 75 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 11:05:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:05:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:05:52 --- ERROR: ErrorException [ 1 ]: Call to undefined method Provider_Facebook_Main::access_token() ~ APPPATH\classes\controller\oauth.php [ 75 ]
+2012-10-06 11:05:52 --- STRACE: ErrorException [ 1 ]: Call to undefined method Provider_Facebook_Main::access_token() ~ APPPATH\classes\controller\oauth.php [ 75 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 11:05:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:05:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:07:39 --- ERROR: ErrorException [ 1 ]: Call to undefined method Provider_Facebook_Main::access_token() ~ APPPATH\classes\controller\oauth.php [ 75 ]
+2012-10-06 11:07:39 --- STRACE: ErrorException [ 1 ]: Call to undefined method Provider_Facebook_Main::access_token() ~ APPPATH\classes\controller\oauth.php [ 75 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-10-06 11:07:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:07:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:10:27 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:10:27 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(115): Kohana_Cookie::salt(NULL, 'N;')
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\oauth.php(77): Kohana_Cookie::set(NULL, 'N;')
+#2 [internal function]: Controller_OAuth->action_complete()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_OAuth_Facebook))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 11:10:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:10:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:21:10 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:21:10 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:21:20 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:21:20 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:21:45 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:21:45 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:22:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:22:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:23:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:23:41 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:24:34 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:24:34 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:24:48 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:24:48 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:25:04 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:25:04 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:25:09 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:25:09 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:25:09 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:25:09 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:04 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:04 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:06 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:06 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:07 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:07 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:39 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:39 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:40 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:40 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:47 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:47 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:47 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:47 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:48 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:48 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:48 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:48 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:48 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:48 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:28:48 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:28:48 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:05 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:29:05 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:05 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:29:05 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:06 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:29:06 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:06 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:29:06 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:07 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:29:07 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:07 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:29:07 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('PHPSESSID', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('PHPSESSID')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:29:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:29:50 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:30:37 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:30:37 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('session')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:35:02 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:35:02 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('session')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:35:02 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:35:02 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('session')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:35:03 --- ERROR: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+2012-10-06 11:35:03 --- STRACE: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH\classes\kohana\cookie.php [ 152 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(202): Kohana_Cookie::get('session')
+#2 D:\OPENSERVER\html\speak_net\www\index.php(108): Kohana_Request::factory()
+#3 {main}
+2012-10-06 11:37:13 --- ERROR: ErrorException [ 2 ]: Missing argument 2 for Kohana_Session::set(), called in D:\OPENSERVER\html\speak_net\application\classes\controller\index.php on line 8 and defined ~ SYSPATH\classes\kohana\session.php [ 243 ]
+2012-10-06 11:37:13 --- STRACE: ErrorException [ 2 ]: Missing argument 2 for Kohana_Session::set(), called in D:\OPENSERVER\html\speak_net\application\classes\controller\index.php on line 8 and defined ~ SYSPATH\classes\kohana\session.php [ 243 ]
+--
+#0 D:\OPENSERVER\html\speak_net\system\classes\kohana\session.php(243): Kohana_Core::error_handler(2, 'Missing argumen...', 'D:\OPENSERVER\h...', 243, Array)
+#1 D:\OPENSERVER\html\speak_net\application\classes\controller\index.php(8): Kohana_Session->set('access_token')
+#2 [internal function]: Controller_Index->action_index()
+#3 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Index))
+#4 D:\OPENSERVER\html\speak_net\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\OPENSERVER\html\speak_net\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-10-06 11:44:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:44:40 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-06 11:44:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-06 11:44:50 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\OPENSERVER\html\speak_net\www\index.php(109): Kohana_Request->execute()
+#1 {main}

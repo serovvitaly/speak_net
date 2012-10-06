@@ -9,11 +9,13 @@
  */
 class Kohana_SOCS {
 
-    const DRIVER_INTERFACE = 'Driver_Socialnet';
+    const DRIVER_INTERFACE = 'Provider_Socialnet';
     
     protected static $_instance = NULL;
     
-    protected static $_drivers = array();
+    protected static $_providers = array();
+    
+    protected static $_oauth   = NULL;
     
     protected static $_config  = NULL;
     
@@ -51,39 +53,13 @@ class Kohana_SOCS {
     }
     
     
-    /**
-    * Возвращает объект доступного драйвера
-    * 
-    * @param mixed $driver_name
-    */
-    public static function driver($driver_name)
+    public static function oauth($provider)
     {
-        return self::instance()->get_driver($driver_name);
-    }
-    
-    
-    /**
-    * Возвращает URL для переадресации на авторизацию в указанной соцсети
-    * 
-    */
-    public static function auth_location()
-    {
-        $driver = isset($_GET['d'])    ? $_GET['d']    : NULL;
-        $from   = isset($_GET['from']) ? $_GET['from'] : '/';
-        
-        $location = '/';
-        
-        if ($driver AND ( $driver = self::instance()->get_driver($driver) ) !== NULL) {
-            
-            $location = $driver->get_url('auth_url', array(
-                'client_id'     => $driver->config('client_id'),
-                'redirect_uri'  => 'http://' . self::instance()->base_url . '/auth/socs/' . $driver->get_name() . '?from=' . $from,
-                'scope'         => $driver->config('scope'),
-                'response_type' => 'code'
-            )); 
+        if (!self::$_oauth) {
+            self::$_oauth = new OAuth_Connector($provider);
         }
         
-        return $location;
+        return self::$_oauth;
     }
     
     
@@ -94,7 +70,19 @@ class Kohana_SOCS {
     */
     public static function authentication($result_driver)
     {
-        return 'user-2';
+        //
+    }
+    
+    
+    
+    /**
+    * Возвращает объект доступного драйвера
+    * 
+    * @param mixed $provider_name
+    */
+    public static function provider($provider_name)
+    {
+        return self::instance()->get_provider($provider_name);
     }
     
     
@@ -104,16 +92,16 @@ class Kohana_SOCS {
     * Если не зарегистирован, то пытается зарегистрировать и после проверки интерфейса возвращает объект.
     * Иначе возвращает NULL.
     * 
-    * @param mixed $driver_name
+    * @param mixed $provider_name
     */
-    protected function get_driver($driver_name)
+    protected function get_provider($provider_name)
     {
         $DRIVER_INTERFACE = self::DRIVER_INTERFACE;
         
-        if ( isset(self::$_drivers[$driver_name]) AND self::$_drivers[$driver_name] instanceof $DRIVER_INTERFACE ) {
-            return self::$_drivers[$driver_name];
+        if ( isset(self::$_providers[$provider_name]) AND self::$_providers[$provider_name] instanceof $DRIVER_INTERFACE ) {
+            return self::$_providers[$provider_name];
         }
-        elseif ( $driver_instance = self::instance()->define_driver($driver_name) AND $driver_instance instanceof $DRIVER_INTERFACE ) {
+        elseif ( $driver_instance = self::instance()->define_provider($provider_name) AND $driver_instance instanceof $DRIVER_INTERFACE ) {
             return $driver_instance;
         }
         
@@ -124,18 +112,18 @@ class Kohana_SOCS {
     /**
     * Регистрирует драйвер
     * 
-    * @param mixed $driver_name
+    * @param mixed $provider_name
     */
-    protected function define_driver($driver_name)
+    protected function define_provider($provider_name)
     {
-        $driver_name = strtolower($driver_name);
-        $driver_class_name = 'Driver_' . ucfirst($driver_name)  . '_Main';
+        $provider_name = strtolower($provider_name);
+        $provider_class_name = 'Provider_' . ucfirst($provider_name)  . '_Main';
         
         
-        if (class_exists($driver_class_name) AND class_implements($driver_class_name, self::DRIVER_INTERFACE)) {
-            self::$_drivers[$driver_name] = new $driver_class_name();
+        if (class_exists($provider_class_name) AND class_implements($provider_class_name, self::DRIVER_INTERFACE)) {
+            self::$_providers[$provider_name] = new $provider_class_name();
             
-            return self::$_drivers[$driver_name];
+            return self::$_providers[$provider_name];
         }
         
         return false;
@@ -144,3 +132,7 @@ class Kohana_SOCS {
     
 
 } // End
+
+
+
+

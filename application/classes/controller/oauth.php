@@ -21,50 +21,43 @@ abstract class Controller_OAuth extends Controller {
  
     public $name;
  
+ 
     public function before()
     {
-        parent::before();
-        $this->_oauth = new OAuth2;
-        // создаем объект консумера, загружая в него настройки приложения из конфига
-        $this->_consumer = OAuth2_Client::factory(Kohana::$config->load('oauth.'.$this->name));
-        $this->_cookie = 'oauth_cookie_'.$this->name;
-        // создаем объект провайдера
-        $this->_provider = $this->_oauth->provider($this->name);
-        if ($token = Cookie::get($this->_cookie))
-        {
-            // а вдруг мы уже имеем в куках временный токен (code)
-            $this->_token = unserialize($token);
-        }
+        
+        $this->_provider = SOCS::provider($this->request->controller());
+        
+        $this->_oauth    = SOCS::oauth($this->_provider);
+        
+        //$this->_token    = $_SESSION['access_token'];
     }
+ 
  
     public function action_login()
     {
         $from = isset($_GET['from']) ? $_GET['from'] : '/';
         
-        // подготавливаем callback для передачи провайдеру
-        $callback = 'http://' . $_SERVER['SERVER_NAME'] . '/oauth/' . $this->name . '/complete';
-        //echo $callback; return;
-        //$callback = 'http://' . $_SERVER['SERVER_NAME'] . $from;
-        $this->_consumer->callback($callback);
-        // редиректим пользователя на страницу провайдера
-        $this->request->redirect($this->_provider->authorize_url($this->_consumer));
+        $provider_redirect = $this->_oauth->set('redirect_uri', 'http://' . $_SERVER['SERVER_NAME'] . '/oauth/' . $this->name . '/complete')->authorize_uri();
+        
+        $this->request->redirect($provider_redirect);
     }
+ 
  
     public function action_complete()
     {
-        // мы должны получить code в GET-строке 
         $code = $this->request->query('code');
-        if ( ! $code)
+        
+        $from = $this->request->query('from');
+        
+        if (!$code)
         {
-            // по идее надо проверять наличие кодов ошибок и т.д.
+            throw new Exception('Ошибка OAuth, не верный `code`');
             return;
         }
-        // меняем код временного токена на токен доступа. Используется curl
-        $this->_token = $this->_provider->access_token($this->_consumer, $code);
-        // сохраняем токен в куке, далее можно его использовать для получения данных пользователя
-        Cookie::set($this->_cookie, serialize($this->_token));
-        // перенаправляем куда-нибудь - аутентификация закончена, токен получен
-        $this->request->redirect('/');
+        
+        $this->_token = $this->_provider->access_token($code);
+        
+        $this->request->redirect($from);
     }
  
 }

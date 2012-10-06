@@ -129,3 +129,5 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'index',
 		'action'     => 'index',
 	));
+
+Cookie::$salt = 'foobar';

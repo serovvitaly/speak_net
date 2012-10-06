@@ -7,7 +7,7 @@
  * @copyright  (c) 2012 Vitaliy Serov
  * @license    serovvitaly@gmail.com
  */
-abstract class Driver_Prototype {
+abstract class Provider_Prototype {
     
     protected $_driver = NULL;
     
@@ -15,6 +15,8 @@ abstract class Driver_Prototype {
     
     protected $_config = NULL;
     
+    
+    protected $_access_token = NULL;
     
     
     public function config($param_name = NULL)
@@ -61,7 +63,7 @@ abstract class Driver_Prototype {
     }
     
     
-    public function get_url($key, array $params = array())
+    public function get_uri($key, array $params = array())
     {
         $params_list = array();
         
@@ -80,17 +82,49 @@ abstract class Driver_Prototype {
         return isset($this->_urls_list[$key]) ? $this->_urls_list[$key] . $params_list : NULL;
     }
     
-    
-    public function auth_url()
-    {
-        
-        $from = $_SERVER['REQUEST_URI'];
-        
-        $driver = $this->get_name();
-        
-        $out_url = "/auth/socs?d=$driver&from={$from}";
-        
-        return $out_url;
-    }
 
+    /**
+    * 
+    * 
+    * @param mixed $code
+    */
+    public function access_token($code = NULL)
+    {
+        if (!empty($code)) {
+            $this->_set_access_token($code);
+        }
+        
+        return $this->_get_access_token();
+    }
+    
+    
+    /**
+    * 
+    * 
+    * @param mixed $access_token
+    */
+    protected function _set_access_token($access_token)
+    {
+        Session::instance()->set('access_token', $access_token);
+        
+        return $this->_access_token = $access_token;
+    }
+    
+    
+    /**
+    * 
+    * 
+    */
+    protected function _get_access_token()
+    {
+        $access_token = Session::instance()->get('access_token');
+        
+        if ($access_token) {
+            $this->_access_token = $access_token;
+        }
+        
+        return $this->_access_token;
+    }
+    
 } // End
+

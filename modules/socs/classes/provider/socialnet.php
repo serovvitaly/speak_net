@@ -7,7 +7,7 @@
  * @copyright  (c) 2012 Vitaliy Serov
  * @license    serovvitaly@gmail.com
  */
-interface Driver_Socialnet {
+interface Provider_Socialnet {
 
     /**
     * Возвращает код виджета авторизации
