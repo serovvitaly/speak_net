@@ -19,12 +19,12 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => 'localhost',
-			'database'   => 'kohana',
-			'username'   => FALSE,
+			'database'   => 'speaknet',
+			'username'   => 'root',
 			'password'   => FALSE,
 			'persistent' => FALSE,
 		),
-		'table_prefix' => '',
+		'table_prefix' => 'sn_',
 		'charset'      => 'utf8',
 		'caching'      => FALSE,
 		'profiling'    => TRUE,

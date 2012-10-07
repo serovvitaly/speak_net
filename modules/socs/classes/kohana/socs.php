@@ -19,6 +19,7 @@ class Kohana_SOCS {
     
     protected static $_config  = NULL;
     
+    protected $_user    = NULL;
     
     public $base_url = NULL;
     
@@ -74,6 +75,72 @@ class Kohana_SOCS {
     }
     
     
+    /**
+    * Синоним SOCS::call
+    * 
+    * @param mixed $user_id
+    * @param mixed $params
+    */
+    public static function api($user_id, $method, array $params = array())
+    {
+        return self::call($user_id, $params);
+    }
+    
+    
+    /**
+    * Выполняет запрос для определенного пользователя
+    * 
+    * @param mixed $user_id
+    * @param mixed $params
+    */
+    public static function call($user_id, $method, array $params = array())
+    {
+        $_user = self::instance()->_get_user($user_id);
+        
+        if ($_user->id > 0) {
+            return self::provider($_user->provider)->call($_user, $method, $params);
+        }
+        
+        return false;
+    }
+    
+    
+    /**
+    * Возвращает модель User
+    * 
+    * @param mixed $user_id
+    */
+    protected function _get_user($user_id)
+    {
+        $user_model_name = 'user';
+        
+        if (is_array($user_id)) {
+            $provider_name = key($user_id);
+            
+            $_uid = $user_id[$provider_name];
+            
+            $provider_column_name = $provider_name . '_uid';
+            
+            if ($this->_user AND $this->_user instanceof ORM AND $this->_user->provider = $provider_name AND $this->_user->uid == $_uid) {
+                return $this->_user;
+            } else {
+                $this->_user = ORM::factory($user_model_name)->where('provider', '=', $provider_name)->where('uid', '=', $_uid)->find();
+                return $this->_user;
+            }
+        }
+        elseif (is_integer($user_id *= 1)) {
+            
+            if ($this->_user AND $this->_user instanceof ORM AND $this->_user->id == $user_id) {
+                return $this->_user;
+            } else {
+                $this->_user = ORM::factory('user', $user_id);
+                return $this->_user;
+            }
+        }
+        
+        return NULL;
+    }
+    
     
     /**
     * Возвращает объект доступного драйвера
@@ -82,7 +149,13 @@ class Kohana_SOCS {
     */
     public static function provider($provider_name)
     {
-        return self::instance()->get_provider($provider_name);
+        $_provider = self::instance()->get_provider($provider_name);
+        
+        if (!$_provider) {
+            throw new Exception("Provider `$provider_name` not found");
+        }
+        
+        return $_provider;
     }
     
     

@@ -8,7 +8,20 @@ class Provider_Facebook_Main extends Provider_Prototype implements Provider_Soci
     
     public function get_auth_code()
     {
-        echo 'foo-prot';
-    }   
+        //
+    }
+    
+    public function api_user_data()
+    {
+        $url = 'https://graph.facebook.com/19292868552';
+        
+        $resp = $this->_request($url);
+        
+        $result = new Call_Result_User_Data();
+        
+        $result->uid = json_decode($resp);
+        
+        return $result;
+    }  
 
 } // End

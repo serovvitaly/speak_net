@@ -5,6 +5,12 @@ class Controller_Index extends Controller {
 	public function action_index()
 	{
     
+        $call = SOCS::call(1, 'user.data');
+        
+        print_r($call);
+        
+        return;
+        
         print(SOCS::provider('facebook')->access_token());
         
         echo '<hr/>';

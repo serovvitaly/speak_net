@@ -9,7 +9,7 @@
  */
 abstract class Provider_Prototype {
     
-    protected $_driver = NULL;
+    protected $_provider = NULL;
     
     protected $_urls_list = array();
     
@@ -17,6 +17,14 @@ abstract class Provider_Prototype {
     
     
     protected $_access_token = NULL;
+    
+    
+    public static $CURL_OPTS = array(
+        CURLOPT_CONNECTTIMEOUT => 10,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT        => 60,
+        CURLOPT_USERAGENT      => '',
+    );
     
     
     public function config($param_name = NULL)
@@ -43,20 +51,120 @@ abstract class Provider_Prototype {
     
     public function get_name()
     {
-        if (!$this->_driver) {  
+        if (!$this->_provider) {  
             $called_class_mix = explode('_', get_called_class());
             
-            $this->_driver = strtolower($called_class_mix[1]);
+            $this->_provider = strtolower($called_class_mix[1]);
         }
         
-        return $this->_driver;
+        return $this->_provider;
     }
 
-    public final function api($config = array())
+    
+    /**
+    * Вызывает зарегистрированный метод провайдера
+    * 
+    * @param ORM $user
+    * @param mixed $method
+    * @param mixed $params
+    */
+    public final function call(ORM $user, $method, array $params = array())
     {
-        //
+        
+        $result_class = 'Call_Result_' . str_replace(' ', '_', ucwords(str_replace('.', ' ', strtolower($method))));
+        
+        $method_name = 'api_' . str_replace('.', '_', strtolower($method));
+        
+        if (method_exists($this, $method_name)) {
+            $result = $this->$method_name($params);
+            
+            if ($result instanceof $result_class) {
+                return $result;
+            }
+            else {
+                throw new Exception("The result of the call `" . $this->get_name() . ".$method` must be `$result_class`");
+            }
+        }
+        else {
+            throw new Exception("`Call method` - `$method_name` not found in provider `" . $this->get_name() . "`");
+        }
+        
     }
 
+    
+    protected final function _request($url, $params = array(), $file_upload = false) {
+    
+        
+        $ch = curl_init();
+        
+
+        $opts = self::$CURL_OPTS;
+        
+        if ($file_upload) {
+            $opts[CURLOPT_POSTFIELDS] = $params;
+        } else {
+            $opts[CURLOPT_POSTFIELDS] = http_build_query($params, null, '&');
+        }
+        
+        $opts[CURLOPT_URL] = $url;
+
+        // disable the 'Expect: 100-continue' behaviour. This causes CURL to wait
+        // for 2 seconds if the server does not support this header.
+        if (isset($opts[CURLOPT_HTTPHEADER])) {
+          $existing_headers = $opts[CURLOPT_HTTPHEADER];
+          $existing_headers[] = 'Expect:';
+          $opts[CURLOPT_HTTPHEADER] = $existing_headers;
+        } else {
+          $opts[CURLOPT_HTTPHEADER] = array('Expect:');
+        }
+
+        curl_setopt_array($ch, $opts);
+        
+        $result = curl_exec($ch);
+
+        if (curl_errno($ch) == 60) { // CURLE_SSL_CACERT
+            //throw new Exception('Invalid or no certificate authority found, using bundled information');
+            curl_setopt($ch, CURLOPT_CAINFO, dirname(__FILE__) . '/fb_ca_chain_bundle.crt');
+            $result = curl_exec($ch);
+        }
+
+        // With dual stacked DNS responses, it's possible for a server to
+        // have IPv6 enabled but not have IPv6 connectivity.  If this is
+        // the case, curl will try IPv4 first and if that fails, then it will
+        // fall back to IPv6 and the error EHOSTUNREACH is returned by the
+        // operating system.
+        if ($result === false && empty($opts[CURLOPT_IPRESOLVE])) {
+            $matches = array();
+            $regex = '/Failed to connect to ([^:].*): Network is unreachable/';
+            if (preg_match($regex, curl_error($ch), $matches)) {
+              if (strlen(@inet_pton($matches[1])) === 16) {
+                self::errorLog('Invalid IPv6 configuration on server, '.
+                               'Please disable or get native IPv6 on your server.');
+                self::$CURL_OPTS[CURLOPT_IPRESOLVE] = CURL_IPRESOLVE_V4;
+                curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+                $result = curl_exec($ch);
+              }
+            }
+        }
+
+        if ($result === false) {
+          $e = new FacebookApiException(array(
+            'error_code' => curl_errno($ch),
+            'error' => array(
+            'message' => curl_error($ch),
+            'type' => 'CurlException',
+            ),
+          ));
+          curl_close($ch);
+          throw $e;
+        }
+        
+        curl_close($ch);
+        
+        return $result;
+    }
+    
+    
     public final function plugin($plugin_name, $config = array())
     {
         //
@@ -127,4 +235,5 @@ abstract class Provider_Prototype {
     }
     
 } // End
+
 
