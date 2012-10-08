@@ -7,6 +7,8 @@ $(document).ready(function(){
     
     $('.sn-button-group ul li i').click(function(){
         
+        history.pushState({foo: 'bar'}, $(this).attr('href'), $(this).attr('href'))
+        
         $('.sn-button-group ul li.active').removeClass('active');
         
         $(this).parent('li').addClass('active');
