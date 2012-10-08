@@ -3,8 +3,10 @@
 class Controller_Manager extends Controller {
 
     public function action_index()
-    {        
-        $this->response->body('manager');
+    {       
+        $view = View::factory('manager/index');
+     
+        $this->response->body($view);
     }
 
 } // End
