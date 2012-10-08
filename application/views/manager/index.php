@@ -25,7 +25,7 @@
       <div class="span1 sn-left-side">
         <div class="sn-button-group">
           <div class="sn-arrow-scroller"><div class="sn-arrow-left"></div></div>
-          <ul>
+          <ul class="sn-nav-bar">
             <li><i href="/manager/page1" id="sn-button-manager-home"></i></li>
             <li class="active"><i href="/manager/page2" id="sn-button-manager-page2"></i></li>
             <li><i href="/manager/page3" id="sn-button-manager-page3"></i></li>

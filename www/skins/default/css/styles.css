@@ -1,4 +1,8 @@
 
+body{
+    background: #F0F0F0;
+}
+
 
 .sn-manager .header{
     height: 80px;
@@ -10,10 +14,11 @@
 }
 
 .sn-manager .sn-wrapper.sn-center-wrapper{
-    border: 1px solid #C0C0C0;
+    border: 1px solid #E1E1E1;
     min-height: 500px;
     border-radius: 3px;
     padding: 5px 10px;
+    background: #FFF;
 }
 
 .sn-manager .sn-left-side .sn-button-group ul{
@@ -41,6 +46,26 @@
 /* -- sn-arrow -- */
 
 
+.sn-nav-bar i{
+    background-position: bottom;
+    background-repeat:  no-repeat;
+}
+.sn-nav-bar i:hover{
+    background-position: center;
+}
+.sn-nav-bar .active i{
+    background-position: top;
+}
+
 #sn-button-manager-home{
-    background: url(../img/sn-button-home-on.png) no-repeat center;
+    background-image: url(../img/sn-button-home.png);
+}
+#sn-button-manager-page2{
+    background-image: url(../img/sn-button-page2.png);
+}
+#sn-button-manager-page3{
+    background-image: url(../img/sn-button-page3.png);
+}
+#sn-button-manager-page4{
+    background-image: url(../img/sn-button-page4.png);
 }
