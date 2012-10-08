@@ -13,9 +13,14 @@ class Provider_Facebook_Main extends Provider_Prototype implements Provider_Soci
     
     public function api_user_data()
     {
-        $url = 'https://graph.facebook.com/19292868552';
+        $url = 'https://api.facebook.com/method/users.getInfo';
         
-        $resp = $this->_request($url);
+        $resp = $this->_request($url, array(
+            'uids' => '100001510022600',
+            'fields' => 'name,email,pic_square',
+            'access_token' => 'AAAAAAITEghMBAE3lj8VM47rIyrjmf4E5ZCeoZB7eUiUb3VrlOGihS3URNPz36nxBGBEPEk8TZBwj13wZAnbJ8MYWkieTU7Xcc7PxmITOz4mYOC0YuoWh',
+            'format' => 'json'
+        ));
         
         $result = new Call_Result_User_Data();
         
