@@ -1,5 +1,28 @@
-body{
+body, input, button, select, textarea {
     font: 11px/20px tahoma,arial,verdana,sans-serif,Lucida Sans;
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 3px 14px 4px;  
+    
+    /*
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fcfcfc), to(#cbcbcb));
+    background-image: -webkit-linear-gradient(top, #fcfcfc, #cbcbcb);
+    background-image: -o-linear-gradient(top, #fcfcfc, #cbcbcb);
+    background-image: linear-gradient(to bottom, #fcfcfc, #cbcbcb);
+    background-image: -moz-linear-gradient(top, #fcfcfc, #cbcbcb);
+    */
+}
+.btn-mini {
+    padding: 1px 6px 2px;
+}
+.btn-small {
+    padding: 2px 9px 3px;
+}
+.btn-large {
+    border-radius: 3px;
+    padding: 8px 14px 9px;
 }
 
 ul{

@@ -120,10 +120,12 @@ Route::set('oauth', 'oauth/(<controller>(/<action>(/<id>)))')
         'controller' => 'index',
         'action'     => 'index',
     ));
-/**
- * Set the routes. Each route must have a minimum of a name, a URI and a set of
- * defaults for the URI.
- */
+Route::set('manager', 'manager(/<controller>(/<action>(/<id>)))')
+    ->defaults(array(
+        'directory'  => 'manager',
+        'controller' => 'index',
+        'action'     => 'index',
+    ));
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'index',

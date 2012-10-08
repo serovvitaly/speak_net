@@ -24,7 +24,7 @@ body{
 .sn-manager .sn-left-side .sn-button-group ul{
     margin: 0;
 }
-.sn-manager .sn-left-side .sn-button-group ul li i{
+.sn-manager .sn-left-side .sn-button-group ul li a{
     display: block;
     width: auto;
     height: 80px;
@@ -46,14 +46,14 @@ body{
 /* -- sn-arrow -- */
 
 
-.sn-nav-bar i{
+.sn-nav-bar a{
     background-position: bottom;
     background-repeat:  no-repeat;
 }
-.sn-nav-bar i:hover{
+.sn-nav-bar a:hover{
     background-position: center;
 }
-.sn-nav-bar .active i{
+.sn-nav-bar .active a{
     background-position: top;
 }
 

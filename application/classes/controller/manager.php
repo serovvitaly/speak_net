@@ -2,11 +2,39 @@
 
 class Controller_Manager extends Controller {
 
+    protected $_template   = NULL;
+    
+    protected $_layout     = NULL;
+    
+    protected $_controller = NULL;
+    
+    protected $_action     = NULL;
+    
+    
+    
+    public function before()
+    {
+        $this->_controller = $this->request->controller();
+        $this->_action     = $this->request->action();
+        
+        $this->_template = View::factory('manager/' . $this->_controller . '/' . $this->_action);
+        
+        $this->_layout   = View::factory('manager/layout');
+        
+        $this->_layout->controller = $this->_controller;
+        $this->_layout->action     = $this->_action;
+    }
+    
+    public function after()
+    {
+        $this->_layout->content = $this->_template;
+        
+        $this->response->body($this->_layout);
+    }
+    
     public function action_index()
-    {       
-        $view = View::factory('manager/index');
-     
-        $this->response->body($view);
+    {        
+        $this->response->body('');
     }
 
 } // End
