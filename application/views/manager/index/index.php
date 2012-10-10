@@ -3,6 +3,7 @@
   <a href="#myModal" role="button" class="btn btn-mini btn-primary" data-toggle="modal"><i class="icon-plus-sign icon-white" style="margin-left: -3px;"></i> Создать</a>
 
   <div class="btn-group pull-right">
+    <a class="btn dropdown-toggle btn-mini" href="#"><i class="icon-chevron-down"></i></a>
     <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">Сортировать<span class="caret"></span></a>
     <ul class="dropdown-menu">
       <li><a href="#">по дате</a></li>

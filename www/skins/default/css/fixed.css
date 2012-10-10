@@ -1,5 +1,5 @@
 body, input, button, select, textarea {
-    font: 11px/15px tahoma,arial,verdana,sans-serif,Lucida Sans;
+    font: 12px/15px tahoma,arial,verdana,sans-serif,Lucida Sans !important;
 }
 
 .btn {
