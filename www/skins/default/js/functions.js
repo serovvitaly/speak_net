@@ -5,11 +5,38 @@ function SNV(){
     var me = this;
     
     /**
+    * Определяет новый callback метод
+    */
+    this.define = function(method, params){
+        //
+    }
+    
+    
+    this.callback = [];
+    
+    /**
+    * Заносит callback метод в хранилище
+    */
+    this.set_callback = function(method_name, instance){
+        //
+    }
+    
+    /**
+    * Возвращает callback метод
+    */
+    this.get_callback = function(method){
+        //
+    }
+    
+    
+    /**
     * Функция удаленного вызова
     * 
     * @param params
     */
     this.call = function(options){
+            
+        console.log(typeof(options)); console.log(options); return;
                 
         me.ajax({
             url : '/call/',

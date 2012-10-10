@@ -1,5 +1,5 @@
 body, input, button, select, textarea {
-    font: 11px/20px tahoma,arial,verdana,sans-serif,Lucida Sans;
+    font: 11px/15px tahoma,arial,verdana,sans-serif,Lucida Sans;
 }
 
 .btn {
@@ -15,7 +15,7 @@ body, input, button, select, textarea {
     */
 }
 .btn-mini {
-    padding: 1px 6px 2px;
+    padding: 1px 8px 2px;
 }
 .btn-small {
     padding: 2px 9px 3px;
@@ -27,4 +27,36 @@ body, input, button, select, textarea {
 
 ul{
     list-style: none;
+}
+
+
+
+.btn .caret {
+    margin-left: 5px;
+    margin-top: 8px !important;
+}
+.btn-group > .btn:first-child {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.btn-group > .btn:last-child, .btn-group > .dropdown-toggle {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.sn-manager .navbar-inner {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.modal {
+    border-radius: 2px;
+}
+
+
+.tooltip-inner {
+  padding: 1px 8px 3px;
+  background-color: #000;
+  -webkit-border-radius: 1px;
+     -moz-border-radius: 1px;
+          border-radius: 1px;
 }

@@ -16,7 +16,7 @@ body{
 .sn-manager .sn-wrapper.sn-center-wrapper{
     border: 1px solid #E1E1E1;
     min-height: 500px;
-    border-radius: 3px;
+    border-radius: 2px;
     padding: 5px 10px;
     background: #FFF;
 }

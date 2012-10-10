@@ -15,13 +15,18 @@ $(document).ready(function(){
         
         history.pushState({foo: 'bar'}, $(this).attr('href'), $(this).attr('href'));
         
-        SNV.call({
+        SNV.call([{
             method: 'content.get',
             params: {
                 url: $(this).attr('href'),
                 els: '#sn-receiver-content,.sn-nav-bar'
+            },
+            callback: function(result){
+                //
             }
-        });
+        },{
+            foo: 'bar'
+        }]);
         
         /*
         SNV.call([{
