@@ -37,8 +37,8 @@
                   <a title="Главная" href="/manager/" class="brand"><img src="/skins/default/img/glyphicons_020_home.png" alt=""></a>
                   <div class="nav-collapse subnav-collapse">
                     <ul class="nav">
-                      <li<?= ($controller == 'adverts' ? ' class="active"' : '') ?>><a href="/manager/adverts/">Реклама</a></li>
-                      <li><a href="#">Link</a></li>
+                      <li<?= ($controller == 'adverts' ? ' class="active"' : '') ?>><a href="/manager/adverts/">Объявления</a></li>
+                      <li<?= ($controller == 'statistic' ? ' class="active"' : '') ?>><a href="/manager/statistic/">Статистика</a></li>
                       <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -52,12 +52,9 @@
                         </ul>
                       </li>
                     </ul>
-                    <form action="" class="navbar-search pull-left">
-                      <input type="text" placeholder="Search" class="search-query span2">
-                    </form>
+                    
                     <ul class="nav pull-right">
-                      <li><a href="#">Link</a></li>
-                      <li class="divider-vertical"></li>
+                    <!--  <li class="divider-vertical"></li> -->
                       <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Профиль <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -69,6 +66,11 @@
                         </ul>
                       </li>
                     </ul>
+                    
+                    <form action="" id="sn-topnavbar-search" class="navbar-search pull-right" style="margin-right: 16px;">
+                      <input type="text" placeholder="поиск" class="search-query span2">
+                    </form>
+                    
                   </div><!-- /.nav-collapse -->
                 </div>
               </div><!-- /navbar-inner -->

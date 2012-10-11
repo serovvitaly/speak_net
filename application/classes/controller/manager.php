@@ -26,10 +26,16 @@ class Controller_Manager extends Controller {
     }
     
     public function after()
-    {
-        $this->_layout->content = $this->_template;
+    {        
+        if ( $this->request->post('ajax') == 1 ) {
+            $output = $this->_template;
+        }
+        else {
+            $this->_layout->content = $this->_template;
+            $output = $this->_layout;
+        }
         
-        $this->response->body($this->_layout);
+        $this->response->body($output);
     }
     
     public function action_index()

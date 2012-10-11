@@ -2,6 +2,10 @@ body, input, button, select, textarea {
     font: 12px/15px tahoma,arial,verdana,sans-serif,Lucida Sans !important;
 }
 
+li {
+    line-height: 18px;
+}
+
 .btn {
     border-radius: 2px;
     padding: 3px 14px 4px;  
@@ -30,6 +34,13 @@ ul{
 }
 
 
+.btn-group > .btn, .btn-group > .dropdown-menu {
+    font-size: 12px;
+}
+.dropdown-menu {
+    min-width: 100px;
+}
+
 
 .btn .caret {
     margin-left: 5px;
@@ -46,6 +57,8 @@ ul{
 
 .sn-manager .navbar-inner {
     border-radius: 4px 4px 0px 0px;
+    border-color: #7E7D7D #4B4B4B #111111 #747474;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .modal {
@@ -64,7 +77,7 @@ ul{
 
 
 .modal-backdrop, .modal-backdrop.fade.in {
-    opacity: 0.4;
+    opacity: 0.25;
 }
 
 .navbar .brand {
@@ -91,4 +104,42 @@ ul{
 .sn-center-side .dropdown .dropdown-menu .nav-header {
     padding-left: 16px;
     padding-right: 16px;
+}
+
+
+.modal-header .close {
+    background: url(../img/sn-modal-close.png) no-repeat;
+    font-size: 0 !important;
+    height: 12px;
+    opacity: 1 !important;
+    width: 12px;
+}
+.modal-header .close:hover {
+    opacity: 0.8 !important;
+    background-position: 0 -12px;
+}
+
+
+.navbar-inverse .navbar-inner {
+    background: url(../img/sn-topmenu-bg.png) repeat-x top;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    background: url(../img/sn-topmenu-bg.png) repeat-x 0 -42px;
+    text-shadow: 0 -1px 0 black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+    color: #BFBFBF;
+}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+    background: url(../img/sn-topmenu-bg.png) repeat-x 0 -42px;
+    text-shadow: 0 -1px 0 black;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5) inset;
+    color: #BFBFBF;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+    color: #BBB8B8;
+    text-shadow: 0 -1px 0 black;
+}
+
+.sn-center-side .navbar-search {
+    margin-top: 4px;
 }

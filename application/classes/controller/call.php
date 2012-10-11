@@ -14,13 +14,22 @@ class Controller_Call extends Controller {
     
     
     
-    protected function _set_error($error)
+    protected function _set_error($method, $message, $code = NULL)
     {
-        $this->_errors[] = $error;
+        $this->_errors[] = array(
+            'method'  => $method,
+            'message' => $message,
+            'code'    => $code
+        );
     }
     
     protected function _set_callback($method, $result)
     {
+        if (!is_array($result)) {
+            $this->_set_error($method,'Метода `' . $method . '` вернул не верные параметры, должен быть array');
+            return false;
+        }
+        
         $this->_callbacks[] = array(
             'method' => $method,
             'result' => $result
@@ -56,27 +65,24 @@ class Controller_Call extends Controller {
     public function action_index()
     {   
         
-        if (is_array($this->_data)) {
-            //
-        }
-        elseif (is_object($this->_data)) {
-            $method = $this->_get_data('method');
-            $params = $this->_get_data('params');
-            
-            $method_name = 'api_' . str_replace('.', '_', strtolower( $method ));
-            
-            if (method_exists($this, $method_name)) {
-                $this->_set_callback($method, $this->$method_name($params));
-            }
-            else {
-                $this->_set_error('Вызов несуществующего метода ' . $method);
+        if (is_array($this->_data) AND count($this->_data) > 0) {
+            foreach ($this->_data AS $call_inst) {
+                $method = Arr::get( (array) $call_inst, 'method');
+                $params = Arr::get( (array) $call_inst, 'params');
+                
+                $method_name = 'api_' . str_replace('.', '_', strtolower( $method ));
+                
+                if (method_exists($this, $method_name)) {
+                    $this->_set_callback($method, $this->$method_name($params));
+                }
+                else {
+                    $this->_set_error($method, 'Вызов несуществующего метода ' . $method);
+                }
             }
         }
         else {
-            //
+            $this->_set_error($method, 'Список вызовов пуст');
         }
-        
-        //$this->_output['data'] = ;
     }
     
     
@@ -85,8 +91,21 @@ class Controller_Call extends Controller {
     // =====================================================================================
     
     protected function api_content_get($params)
+    {        
+        $content = Request::factory($params->url)
+        ->post('ajax', 1)
+        ->execute()
+        ->send_headers(TRUE)
+        ->body();
+        
+        return array('content' => $content);
+    }
+    
+    protected function api_content_hello($params)
     {
-        return 'Вы запросили контент для страницы ' . $params->url;
+        $text = 'Вы запросили контент для страницы ' . $params->els;
+        
+        return array('text' => $text);
     }
 
 } // End

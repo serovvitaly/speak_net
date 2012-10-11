@@ -12,20 +12,20 @@ function SNV(){
     }
     
     
-    this.callback = [];
+    this.callmix = [];
     
     /**
-    * Заносит callback метод в хранилище
+    * Вызывает callback метод
     */
-    this.set_callback = function(method_name, instance){
-        //
-    }
-    
-    /**
-    * Возвращает callback метод
-    */
-    this.get_callback = function(method){
-        //
+    this.fire_callback = function(method, params){
+        
+        jQuery.each(me.callmix, function(index, item){
+            
+            if (item.method == method) {
+                item.callback(params);
+            }
+        })
+        
     }
     
     
@@ -34,20 +34,29 @@ function SNV(){
     * 
     * @param params
     */
-    this.call = function(options){
-            
-        console.log(typeof(options)); console.log(options); return;
+    this.call = function(callmix){
+        
+        me.callmix = callmix;
+        
+        me.callmix_query = [];
+        
+        jQuery.each(me.callmix, function(index, item){
+            me.callmix_query.push({
+                method: item.method,
+                params: item.params
+            });
+        });
                 
         me.ajax({
             url : '/call/',
             type: 'POST',
-            data: $.toJSON(options),
+            data: jQuery.toJSON(me.callmix_query),
             success: function(data, textStatus, jqXHR){
                 if (data.success === true) {
-                    me.call_success();
+                    me.call_success(data);
                 }
                 else {
-                    me.call_failure();
+                    me.call_failure(data);
                 }
             }
         });
@@ -55,11 +64,25 @@ function SNV(){
     }
     
     
-    this.call_success = function(){
-        //alert('УРА');
+    this.call_success = function(data){
+        
+        // обработка успешных функций
+        if (data.callback && data.callback.length > 0) {
+            jQuery.each(data.callback, function(index, item){
+                me.fire_callback(item.method, item.result);
+            })
+        }
+        
+        // обработка не успешных функций
+        if (data.errors && data.errors.length > 0) {
+            jQuery.each(data.errors, function(index, item){
+                //
+            })
+        }
+        
     }
     
-    this.call_failure = function(){
+    this.call_failure = function(data){
         alert('ПРОВАЛ');
     }
     

@@ -41,13 +41,13 @@
          'text'  => 'Во время работы функции, вызванной директивой new, новосоздаваемый объект доступен как this, так что можно проставить любые свойства.',
          'created' => '3 января 2012'
      ),
-     array(
+     /*array(
          'id'    => 3,
          'image' => '/data/bo-play-a3-site-css.jpg',
          'title' => 'Как написать плагин для jQuery',
          'text'  => 'За последнее время было много просьб рассказать о том, как написать свой собственный плагин к jQuery. Идя навстречу пожеланиям трудящихся бескрайних полей Интернета – выполняю эти просьбы.',
          'created' => '21 мая 2011'
-     ),
+     ),*/
   );   
 ?>
 
@@ -82,7 +82,7 @@
 <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h4 id="myModalLabel">Modal header</h4>
+    <h5 id="myModalLabel">Новое объявление</h5>
   </div>
   <div class="modal-body">
     <p>One fine body…</p>
@@ -93,10 +93,10 @@
   </div>
 </div>
 
-
+<!--
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
-
+-->
 <script type="text/javascript">
 $(document).ready(function(){
     $('.sn-tooltip').tooltip({
@@ -108,7 +108,7 @@ $(document).ready(function(){
     
     
     $('.chart-container').each(function(index, item){
-        createChart($(item).attr('id'));
+    //    createChart($(item).attr('id'));
     });
     
 })
