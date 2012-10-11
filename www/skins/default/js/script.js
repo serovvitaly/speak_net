@@ -4,8 +4,6 @@ function moveArrow(){
 }
 
 $(document).ready(function(){
-    $('.sn-button-group .sn-arrow-scroller').height( $('.sn-button-group ul').height() );
-    moveArrow();
     
     $('.sn-button-group ul li a').click(function(){  
         $('.sn-button-group ul li.active').removeClass('active');

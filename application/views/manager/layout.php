@@ -23,19 +23,8 @@
       
     </div>
     <div class="row">
-      <div class="span1 sn-left-side">
-        <div class="sn-button-group">
-          <div style="height: 42px;"></div>
-          <div class="sn-arrow-scroller"><div class="sn-arrow-left"></div></div>
-          <ul class="sn-nav-bar">
-            <li<?= ($controller == 'index' ? ' class="active"' : '') ?>><a href="/manager/" id="sn-button-manager-home"></a></li>
-            <li<?= ($controller == 'page1' ? ' class="active"' : '') ?>><a href="/manager/page1" id="sn-button-manager-page2"></a></li>
-            <li<?= ($controller == 'page2' ? ' class="active"' : '') ?>><a href="/manager/page2" id="sn-button-manager-page3"></a></li>
-            <li<?= ($controller == 'page3' ? ' class="active"' : '') ?>><a href="/manager/page3" id="sn-button-manager-page4"></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="span11 sn-center-side">
+
+      <div class="span12 sn-center-side">
       
         <div style="position: static; margin-bottom: 0;" class="navbar navbar-inverse">
               <div class="navbar-inner">
@@ -48,7 +37,7 @@
                   <a title="Главная" href="/manager/" class="brand"><img src="/skins/default/img/glyphicons_020_home.png" alt=""></a>
                   <div class="nav-collapse subnav-collapse">
                     <ul class="nav">
-                      <li><a href="/manager/adverts/">Реклама</a></li>
+                      <li<?= ($controller == 'index' ? ' class="active"' : '') ?>><a href="/manager/adverts/">Реклама</a></li>
                       <li><a href="#">Link</a></li>
                       <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>

@@ -54,13 +54,13 @@
 <div class="row">
 <? if (count($items) > 0) { foreach ($items AS $item) { ?>
 
-    <div class="span11" style="border-bottom: 1px solid #E0E0E0; margin-bottom: 20px; padding-bottom: 10px; margin-left: 10px;">
+    <div class="span12" style="border-bottom: 1px solid #E0E0E0; margin-bottom: 20px; padding-bottom: 10px; margin-left: 9px;">
       <div class="span3">
         <img alt="" src="<?= $item['image'] ?>" >
         <p style="margin: 9px 0 6px;"><strong><?= $item['title'] ?></strong> <i class="icon-info-sign sn-tooltip" title="Показать полностью" style="float: right; cursor: help;"></i></p>
         <p style="height: 46px; overflow: hidden;"><?= $item['text'] ?></p>
       </div>
-      <div class="span8" style="margin-left: 0;">
+      <div class="span9" style="margin-left: 0;">
         <div class="chart-container" id="container-<?= $item['id'] ?>" style="width: 160px; height: 160px; float: right; margin-right: 2px;"></div>
         <table style="margin-left: 20px;">
           <tr>
