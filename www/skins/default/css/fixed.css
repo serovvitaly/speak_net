@@ -60,3 +60,13 @@ ul{
      -moz-border-radius: 1px;
           border-radius: 1px;
 }
+
+
+
+.modal-backdrop, .modal-backdrop.fade.in {
+    opacity: 0.4;
+}
+
+.navbar .brand {
+    padding: 3px 8px;
+}
