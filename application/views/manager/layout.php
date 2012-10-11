@@ -37,7 +37,7 @@
                   <a title="Главная" href="/manager/" class="brand"><img src="/skins/default/img/glyphicons_020_home.png" alt=""></a>
                   <div class="nav-collapse subnav-collapse">
                     <ul class="nav">
-                      <li<?= ($controller == 'index' ? ' class="active"' : '') ?>><a href="/manager/adverts/">Реклама</a></li>
+                      <li<?= ($controller == 'adverts' ? ' class="active"' : '') ?>><a href="/manager/adverts/">Реклама</a></li>
                       <li><a href="#">Link</a></li>
                       <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
@@ -59,13 +59,13 @@
                       <li><a href="#">Link</a></li>
                       <li class="divider-vertical"></li>
                       <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Профиль <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
+                          <li><a href="#">Настройки</a></li>
+                          <li><a href="#">База знаний</a></li>
+                          <li><a href="#">Тех поддержка</a></li>
                           <li class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
+                          <li><a href="#">Выход</a></li>
                         </ul>
                       </li>
                     </ul>

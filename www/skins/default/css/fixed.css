@@ -70,3 +70,25 @@ ul{
 .navbar .brand {
     padding: 3px 8px;
 }
+
+.sn-center-side .navbar-inner {
+    padding-left: 20px;
+    padding-right: 0;
+}
+.sn-center-side .navbar .divider-vertical {
+    margin: 0;
+}
+
+
+.sn-center-side .dropdown-menu a {
+    line-height: 20px;
+    padding: 2px 16px;
+}
+.sn-center-side .dropdown-menu .divider {
+    margin: 7px 1px;
+}
+
+.sn-center-side .dropdown .dropdown-menu .nav-header {
+    padding-left: 16px;
+    padding-right: 16px;
+}
