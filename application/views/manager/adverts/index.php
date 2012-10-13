@@ -6,13 +6,24 @@
   </div>
   
   <div class="btn-group pull-right">
-    <a class="btn dropdown-toggle btn-mini sn-tooltip-bottom" href="#" title="По убыванию"><i class="icon-chevron-down"></i></a>
+    <a class="btn btn-mini sn-tooltip-bottom" href="#" title="По убыванию"><i class="icon-chevron-down"></i></a>
     <a class="btn dropdown-toggle btn-mini sn-tooltip-bottom" data-toggle="dropdown" href="#" title="Сортировать">по дате<span class="caret"></span></a>
     <ul class="dropdown-menu">
       <li><a href="#">по дате</a></li>
       <li><a href="#">по рейтингу</a></li>
       <li><a href="#">по стоимости</a></li>
     </ul>
+  </div>
+  
+  <div class="btn-group pull-right">
+    <a class="btn btn-mini sn-tooltip-bottom" href="#" title="Назад"><i class="icon-arrow-left"></i></a>
+    <a class="btn dropdown-toggle btn-mini sn-tooltip-bottom" data-toggle="dropdown" href="#" title="Страница">1<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+    </ul>
+    <a class="btn btn-mini sn-tooltip-bottom" href="#" title="Вперед"><i class="icon-arrow-right"></i></a>
   </div>
 
   <!-- <div class="btn-group pull-right">
@@ -21,7 +32,6 @@
     <button class="btn btn-mini">3</button>
   </div> -->
 </div>
-
 
 <div style="height: 30px;"></div>
 
@@ -82,21 +92,31 @@
 <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h5 id="myModalLabel">Новое объявление</h5>
+    <h5 class="title">Новое объявление</h5>
   </div>
   <div class="modal-body">
-    <p>One fine body…</p>
+    
+    <div class="btn-group" data-toggle="buttons-radio">
+      <a href="#" class="btn" data-toggle="modal">Объявление</a>
+      <a href="#" class="btn" data-toggle="modal">Аудитория</a>
+      <a href="#" class="btn" data-toggle="modal">Цели</a>
+    </div>
+    
+    <div style="height: 200px; border: 1px solid #D0D0D0; margin-top: 10px;"></div>
+    
   </div>
   <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
+      <button class="btn">Назад</button>
+      <button class="btn">Далее</button>
+      <button class="btn btn-success">Готово</button>
+      <button class="btn" data-dismiss="modal" aria-hidden="true">Отменить</button>
   </div>
 </div>
 
-<!--
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
--->
+
+<script src="/libs/highcharts/highcharts.js"></script>
+<script src="/libs/highcharts/exporting.js"></script>
+
 <script type="text/javascript">
 $(document).ready(function(){
     $('.sn-tooltip').tooltip({
@@ -108,7 +128,7 @@ $(document).ready(function(){
     
     
     $('.chart-container').each(function(index, item){
-    //    createChart($(item).attr('id'));
+        createChart($(item).attr('id'));
     });
     
 })

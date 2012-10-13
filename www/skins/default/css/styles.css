@@ -69,3 +69,28 @@ body{
 #sn-button-manager-page4{
     background-image: url(../img/sn-button-page4.png);
 }
+
+.sn-locker{
+    position:  absolute;
+    background: #FFF url(../img/ajax-loader.gif) center 30% no-repeat;
+    opacity: 0.5;
+}
+
+.sn-bottom-links{
+    text-align: center;
+    margin-top: 10px;
+}
+.sn-bottom-links a{
+    padding: 0 5px;
+    font-size: 11px;
+    color: #808080;
+}
+.sn-bottom-links p{
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+
+.chart-container text, .chart-container text tspan{
+    fill: #FFF !important;
+}

@@ -19,9 +19,20 @@
 </head>
 <body>
   <div class="container sn-manager">
-    <div class="row header">
-      
-    </div>
+    <header class="row header">
+      <div class="span9"></div>
+      <div class="span3">
+        <table style="margin-top: 10px;">
+          <tr>
+            <td rowspan="2" style="vertical-align: top; padding-right: 10px;"><img src="/skins/default/img/nofoto.png" alt=""></td>
+            <td style="vertical-align: top;"><strong>Виталий Серов</strong></td>
+          </tr>
+          <tr>
+            <td>params</td>
+          </tr>
+        </table>
+      </div>
+    </header>
     <div class="row">
 
       <div class="span12 sn-center-side">
@@ -80,7 +91,15 @@
           <?= $content ?>
         </div>
         <div class="sn-footer">
-          <div class="sn-wrapper sn-footer-wrapper"></div>
+          <div class="sn-wrapper sn-footer-wrapper">
+            <div class="sn-bottom-links">
+              <a href="#">О нас</a>
+              <a href="#">Правила</a>
+              <a href="#">Сотрудничество</a>
+              <a href="#">Поддержка</a>
+              <p>2012 с Speak Net</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
