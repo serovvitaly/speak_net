@@ -2,9 +2,20 @@
 
 class Controller_Auth extends Controller {
 
+    //
+    
     public function action_index()
-    {        
-        $this->response->body('');
+    {   
+        $view = View::factory('auth/index');
+        
+        if ($this->_USER) {
+            $view->content = 'Привет ' . $this->_USER->name;
+        }
+        else {
+            $view->content = '<a href="/oauth/vkontakte/login">Вконтакте</a>';
+        }
+         
+        $this->response->body($view);
     }
     
     

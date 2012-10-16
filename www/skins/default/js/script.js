@@ -36,7 +36,7 @@ $(document).ready(function(){
     
     animateSearcher();
     
-    $('.nav-collapse.subnav-collapse ul li a').click(function(){  
+    $('.nav-collapse.subnav-collapse ul li a:not([class="dropdown-toggle"])').click(function(){  
         $('.nav-collapse.subnav-collapse ul li.active').removeClass('active');
         $(this).parent('li').addClass('active');
         
@@ -54,14 +54,6 @@ $(document).ready(function(){
                 unlockConteiner('#sn-receiver-content');
                 unlockConteiner('.sn-nav-bar');
                 $('#sn-receiver-content').html(result.content);
-            }
-        },{
-            method: 'content.hello',
-            params: {
-                els: 123
-            },
-            callback: function(result){
-                console.log(result.text);
             }
         }]);
         

@@ -110,7 +110,7 @@ function SNV(){
     }
     
     this.ajax_error = function(jqXHR, textStatus, errorThrown){
-        alert(textStatus + ' : ' + errorThrown);
+        console.log(textStatus + ' : ' + errorThrown);
     }
     
 }

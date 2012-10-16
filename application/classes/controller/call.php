@@ -52,10 +52,7 @@ class Controller_Call extends Controller {
             $this->_output['errors']    = $this->_errors;
         }
         
-        if (count($this->_callbacks) == 1) {
-            $this->_output['callback'] = $this->_callbacks[0];
-        }
-        elseif (count($this->_callbacks) > 0) {
+        if (count($this->_callbacks) > 0) {
             $this->_output['callback'] = $this->_callbacks;
         }
         

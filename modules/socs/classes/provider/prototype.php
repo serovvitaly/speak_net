@@ -68,7 +68,7 @@ abstract class Provider_Prototype {
     * @param mixed $method
     * @param mixed $params
     */
-    public final function call(ORM $user, $method, array $params = array())
+    public final function call($method, array $params = array(), ORM $user = NULL)
     {
         
         $result_class = 'Call_Result_' . str_replace(' ', '_', ucwords(str_replace('.', ' ', strtolower($method))));
@@ -117,6 +117,9 @@ abstract class Provider_Prototype {
         } else {
           $opts[CURLOPT_HTTPHEADER] = array('Expect:');
         }
+        
+        $opts[CURLOPT_SSL_VERIFYPEER] = false;
+        $opts[CURLOPT_SSL_VERIFYHOST] = false;
 
         curl_setopt_array($ch, $opts);
         
@@ -148,13 +151,7 @@ abstract class Provider_Prototype {
         }
 
         if ($result === false) {
-          $e = new FacebookApiException(array(
-            'error_code' => curl_errno($ch),
-            'error' => array(
-            'message' => curl_error($ch),
-            'type' => 'CurlException',
-            ),
-          ));
+          $e = new Exception(curl_error($ch), curl_errno($ch));
           curl_close($ch);
           throw $e;
         }
@@ -202,7 +199,7 @@ abstract class Provider_Prototype {
             $this->_set_access_token($code);
         }
         
-        return $this->_get_access_token();
+        return $this->_get_access_token($code);
     }
     
     
@@ -213,7 +210,7 @@ abstract class Provider_Prototype {
     */
     protected function _set_access_token($access_token)
     {
-        Session::instance()->set('access_token', $access_token);
+        //Session::instance()->set('access_token', $access_token);
         
         return $this->_access_token = $access_token;
     }
@@ -225,10 +222,11 @@ abstract class Provider_Prototype {
     */
     protected function _get_access_token()
     {
-        $access_token = Session::instance()->get('access_token');
+        //$access_token = Session::instance()->get('access_token');
+        //$access_token = NULL;
         
-        if ($access_token) {
-            $this->_access_token = $access_token;
+        if (!$this->_access_token) {
+            $this->_access_token = $this->api_access_token();
         }
         
         return $this->_access_token;

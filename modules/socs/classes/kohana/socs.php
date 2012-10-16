@@ -93,13 +93,30 @@ class Kohana_SOCS {
     * @param mixed $user_id
     * @param mixed $params
     */
-    public static function call($user_id, $method, array $params = array())
+    public static function call($method, $params = NULL, $user_id = NULL)
     {
-        $_user = self::instance()->_get_user($user_id);
-        
-        if ($_user->id > 0) {
-            return self::provider($_user->provider)->call($_user, $method, $params);
+        if (!is_array($params)) {
+            $params = array();
         }
+        
+        if ($user_id > 0) {
+            $_user      = self::instance()->_get_user($user_id);
+            $provider   = $_user->provider;
+        }
+        else {
+            $_user      = NULL;
+            $method_els = explode('.', $method);
+            $provider   = $method_els[0];
+            
+            unset($method_els[0]);
+            $method     = implode('.', $method_els);
+        }
+        
+        $provider = self::provider($provider);
+        
+        if ($provider) {
+            return $provider->call($method, $params, $_user);
+        }        
         
         return false;
     }

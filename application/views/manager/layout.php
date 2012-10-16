@@ -18,8 +18,8 @@
   
 </head>
 <body>
-  <div class="container sn-manager">
-    <header class="row header">
+  <div class="container-fluid sn-manager">
+    <header class="row-fluid header">
       <div class="span9"></div>
       <div class="span3">
         <table style="margin-top: 10px;">
@@ -33,7 +33,7 @@
         </table>
       </div>
     </header>
-    <div class="row">
+    <div class="row-fluid">
 
       <div class="span12 sn-center-side">
       
