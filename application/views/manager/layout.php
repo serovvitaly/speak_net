@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="/libs/bootstrap/css/bootstrap.css">
   <script type="text/javascript" src="/libs/bootstrap/js/bootstrap.js"></script>
   
-  <link rel="stylesheet" type="text/css" href="/skins/default/css/fixed.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/skins/default/css/fixed.css"> -->
   <link rel="stylesheet" type="text/css" href="/skins/default/css/styles.css">
   
   <script type="text/javascript" src="/skins/default/js/functions.js"></script>
@@ -20,8 +20,8 @@
 <body>
   <div class="container-fluid sn-manager">
     <header class="row-fluid header">
-      <div class="span9"></div>
-      <div class="span3">
+      <div class="span10"></div>
+      <div class="span2">
         <table style="margin-top: 10px;">
           <tr>
             <td rowspan="2" style="vertical-align: top; padding-right: 10px;"><img src="/skins/default/img/nofoto.png" alt=""></td>
@@ -33,19 +33,17 @@
         </table>
       </div>
     </header>
-    <div class="row-fluid">
-
-      <div class="span12 sn-center-side">
-      
-        <div style="position: static; margin-bottom: 0;" class="navbar navbar-inverse">
+    
+    <div>
+            <div class="navbar navbar-inverse">
               <div class="navbar-inner">
                 <div class="container">
-                  <a data-target=".subnav-collapse" data-toggle="collapse" class="btn btn-navbar">
+                  <a data-target="subnav-collapse" data-toggle="collapse" class="btn btn-navbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </a>
-                  <a title="Главная" href="/manager/" class="brand"><img src="/skins/default/img/glyphicons_020_home.png" alt=""></a>
+                  <a title="Главная" href="/manager/" class="brand">ГЛ</a>
                   <div class="nav-collapse subnav-collapse">
                     <ul class="nav">
                       <li<?= ($controller == 'adverts' ? ' class="active"' : '') ?>><a href="/manager/adverts/">Объявления</a></li>
@@ -85,7 +83,21 @@
                   </div><!-- /.nav-collapse -->
                 </div>
               </div><!-- /navbar-inner -->
-            </div>
+        </div>
+    </div>
+    
+    <div class="row-fluid">
+
+      <div class="span2 sn-left-side">
+      
+        <ul class="nav nav-list">
+            <li class="nav-header">List header</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+        </ul>
+      
+      </div>
+      <div class="span10 sn-center-side">
       
         <div class="sn-wrapper sn-center-wrapper" id="sn-receiver-content">
           <?= $content ?>
@@ -97,7 +109,7 @@
               <a href="#">Правила</a>
               <a href="#">Сотрудничество</a>
               <a href="#">Поддержка</a>
-              <p>2012 с Speak Net</p>
+              <p>2012 © Speak Net</p>
             </div>
           </div>
         </div>

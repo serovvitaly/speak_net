@@ -51,20 +51,41 @@
          'text'  => 'Во время работы функции, вызванной директивой new, новосоздаваемый объект доступен как this, так что можно проставить любые свойства.',
          'created' => '3 января 2012'
      ),
-     /*array(
+     array(
          'id'    => 3,
          'image' => '/data/bo-play-a3-site-css.jpg',
          'title' => 'Как написать плагин для jQuery',
          'text'  => 'За последнее время было много просьб рассказать о том, как написать свой собственный плагин к jQuery. Идя навстречу пожеланиям трудящихся бескрайних полей Интернета – выполняю эти просьбы.',
          'created' => '21 мая 2011'
-     ),*/
+     ),
+     array(
+         'id'    => 4,
+         'image' => '/data/food-studio-site-css3.jpg',
+         'title' => 'Приходите в наше кафе',
+         'text'  => 'На уровне языка реализовано наследование на прототипах. С помощью некоторых трюков можно сделать (хотя и не так удобно, как в Java/C++) наследование на классах, объявить приватные свойства объекта и многое другое.',
+         'created' => '12 марта 2012'
+     ),
+     array(
+         'id'    => 5,
+         'image' => '/data/ultranoir-mobile.jpg',
+         'title' => 'Создание объекта. Функция-конструктор',
+         'text'  => 'Во время работы функции, вызванной директивой new, новосоздаваемый объект доступен как this, так что можно проставить любые свойства.',
+         'created' => '3 января 2012'
+     ),
+     array(
+         'id'    => 6,
+         'image' => '/data/bo-play-a3-site-css.jpg',
+         'title' => 'Как написать плагин для jQuery',
+         'text'  => 'За последнее время было много просьб рассказать о том, как написать свой собственный плагин к jQuery. Идя навстречу пожеланиям трудящихся бескрайних полей Интернета – выполняю эти просьбы.',
+         'created' => '21 мая 2011'
+     ),
   );   
 ?>
 
 <div class="row">
 <? if (count($items) > 0) { foreach ($items AS $item) { ?>
 
-    <div class="span12" style="border-bottom: 1px solid #E0E0E0; margin-bottom: 20px; padding-bottom: 10px; margin-left: 9px;">
+    <div class="span6">
       <div class="span3">
         <img alt="" src="<?= $item['image'] ?>" >
         <p style="margin: 9px 0 6px;"><strong><?= $item['title'] ?></strong> <i class="icon-info-sign sn-tooltip" title="Показать полностью" style="float: right; cursor: help;"></i></p>
@@ -102,12 +123,24 @@
       <a href="#" class="btn" data-toggle="modal">Цели</a>
     </div>
     
-    <div style="height: 200px; border: 1px solid #D0D0D0; margin-top: 10px;"></div>
+    <div style="height: 200px; margin-top: 10px;">
+    
+      <div id="myCarousel" class="carousel slide">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div style="border: 1px solid red;" class="active item">страница 1</div>
+            <div style="border: 1px solid blue;" class="item">страница 2</div>
+            <div style="border: 1px solid green;" class="item">страница 3</div>
+          </div>
+      </div>
+    
+    
+    </div>
     
   </div>
   <div class="modal-footer">
-      <button class="btn">Назад</button>
-      <button class="btn">Далее</button>
+      <a class="btn" href="#myCarousel" data-slide="prev">Назад</a>
+      <a class="btn" href="#myCarousel" data-slide="next">Далее</a>
       <button class="btn btn-success">Готово</button>
       <button class="btn" data-dismiss="modal" aria-hidden="true">Отменить</button>
   </div>
@@ -119,6 +152,11 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
+    
+    $('.carousel').carousel({
+        interval: false
+    });
+    
     $('.sn-tooltip').tooltip({
         placement: 'right'
     });

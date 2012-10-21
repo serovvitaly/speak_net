@@ -1,6 +1,6 @@
 body, input, button, select, textarea {
     /*font: 12px/15px tahoma,arial,verdana,sans-serif,Lucida Sans !important;*/
-    font: 11px/18px Verdana, sans-serif;
+    font: 12px/18px Verdana, sans-serif !important;
 }
 
 li {
@@ -57,9 +57,7 @@ ul{
 }
 
 .sn-manager .navbar-inverse .navbar-inner {
-    border-radius: 4px 4px 0px 0px;
-    border-color: #7E7D7D #4B4B4B #111111 #747474;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 0;
 }
 
 .modal {
@@ -135,6 +133,8 @@ ul{
     text-shadow: 0 -1px 0 black;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5) inset;
     color: #BFBFBF;
+    border: 1px solid #465568; 
+    padding: 8px 13px;
 }
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
     color: #BBB8B8;
