@@ -5,6 +5,8 @@ class Controller_Index extends Controller {
 	public function action_index()
 	{
     
+        echo '<a href="/auth/">авторизация</a>'; return;
+        
         $call = SOCS::call('vkontakte.user.data');
         print(SOCS::provider('vkontakte')->access_token());
         echo '<hr/>';

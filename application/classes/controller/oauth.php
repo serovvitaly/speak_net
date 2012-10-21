@@ -59,7 +59,7 @@ abstract class Controller_OAuth extends Controller {
         
         echo "<p>$token_uri</p>";
         
-        print_r( @file_get_contents($token_uri) );
+        print_r( file_get_contents($token_uri) );
         
         return;
         
