@@ -107,25 +107,39 @@ Kohana::$config->attach(new Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-	 'auth'       => MODPATH.'auth',       // Basic authentication
+	   'auth'       => MODPATH.'auth',       // Basic authentication
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
-	 'database'   => MODPATH.'database',   // Database access
+	   'database'   => MODPATH.'database',   // Database access
 	// 'image'      => MODPATH.'image',      // Image manipulation
 	// 'minion'     => MODPATH.'minion',     // CLI Tasks
-	 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
+	   'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
-	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+    // 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+       'socs'       => MODPATH.'socs',       // SOCS module
+	   'curl'       => MODPATH.'curl',       // CURL module
 	));
 
+    
 /**
- * Set the routes. Each route must have a minimum of a name, a URI and a set of
- * defaults for the URI.
+ * oAuth 2.0
  */
+Route::set('oauth', 'oauth/(<controller>(/<action>(/<id>)))')
+    ->defaults(array(
+        'directory'  => 'oauth',
+        'controller' => 'index',
+        'action'     => 'index',
+    ));
+Route::set('manager', 'manager(/<controller>(/<action>(/<id>)))')
+    ->defaults(array(
+        'directory'  => 'manager',
+        'controller' => 'index',
+        'action'     => 'index',
+    ));
 Route::set('default', '(<controller>(/<action>(/<id>)))')
-	->defaults(array(
-		'controller' => 'index',
-		'action'     => 'index',
-	));
+    ->defaults(array(
+        'controller' => 'index',
+        'action'     => 'index',
+    ));
 
 Cookie::$salt = 'foobar';

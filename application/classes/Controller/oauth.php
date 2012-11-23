@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-abstract class Controller_OAuth extends Controller {
+class Controller_OAuth extends Controller {
     /**
      * @var OAuth2
      */
@@ -39,7 +39,7 @@ abstract class Controller_OAuth extends Controller {
         
         $provider_redirect = $this->_oauth->set('redirect_uri', 'http://' . $_SERVER['SERVER_NAME'] . '/oauth/' . $this->name . '/complete?from=' . $from)->authorize_uri();
         
-        $this->request->redirect($provider_redirect);
+        $this->redirect($provider_redirect);
     }
  
  
@@ -55,15 +55,15 @@ abstract class Controller_OAuth extends Controller {
             return;
         }
         
-        $token_uri = "https://oauth.vk.com/access_token?client_id=3175485&client_secret=dkHaWI2rhrXV8wfFWySw&code={$code}&redirect_uri=http://{$_SERVER['SERVER_NAME']}";
+        $token_uri = "https://oauth.vk.com/access_token?client_id=3175485&client_secret=dkHaWI2rhrXV8wfFWySw&code={$code}&redirect_uri=http://{$_SERVER['SERVER_NAME']}/oauth/vkontakte/complete?from={$from}";  
         
-        echo "<p>$token_uri</p>";
         
-        print_r( file_get_contents($token_uri) );
+        $result = json_decode( $this->curl_query($token_uri) );
+        
+        //print_r($result);
         
         return;
         
-        print_r($this->request->query()); echo '<hr/>';
         
         $access_token = SOCS::call('vkontakte.access.token', array(
             'code' => $code,
@@ -81,7 +81,26 @@ abstract class Controller_OAuth extends Controller {
         
         return;
         
-        $this->request->redirect($from);
+        $this->redirect($from);
+    }
+    
+    
+    /**
+    * Выполняет cURL запрос
+    * 
+    */
+    protected function curl_query($url)
+    {
+        $_curl = CURL::factory(array(
+            CURLOPT_URL  => $url,
+            CURLOPT_SSL_VERIFYPEER  => false,
+            CURLOPT_SSL_VERIFYHOST  => false,
+            CURLOPT_POST => 0
+        ));
+        
+        $result = $_curl->execute();
+        
+        return $result;
     }
  
 }
