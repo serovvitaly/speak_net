@@ -1,0 +1,4 @@
+web1:
+    name: front-end
+    document_root: www
+    php_version: 5.3.10
