@@ -4,7 +4,7 @@
   
 return array(
 
-    'drivers' => array(
+    'providers' => array(
         'facebook' => array(
             'apps' => array(
                 array(

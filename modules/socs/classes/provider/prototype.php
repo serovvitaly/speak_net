@@ -30,7 +30,7 @@ abstract class Provider_Prototype {
     public function config($param_name = NULL)
     {
         if (!$this->_config) {
-            $this->_config = Kohana::$config->load('socs.drivers.' . $this->get_name());
+            $this->_config = Kohana::$config->load('socs.providers.' . $this->get_name());
         }
         
         if (!empty($param_name)) {

@@ -9,6 +9,19 @@ class Provider_Vkontakte_Main extends Provider_Prototype implements Provider_Soc
     
     
     /**
+    * Функция авторизации в соцсети
+    * 
+    */
+    public function authorization()
+    {
+        $url = "https://oauth.vk.com/authorize?client_id={$this->config('client_id')}&scope=friends&redirect_uri=http://www.speaknet/test/complite&display=page&response_type=token";
+        
+        
+        Request::current()->redirect($url);
+    }
+    
+    
+    /**
     * Запрашивает access_token
     * 
     */

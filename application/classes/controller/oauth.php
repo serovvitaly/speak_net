@@ -35,6 +35,11 @@ abstract class Controller_OAuth extends Controller {
  
     public function action_login()
     {
+        
+        $this->_provider->authorization();
+        
+        return;
+        
         $from = isset($_GET['from']) ? $_GET['from'] : '/';
         
         $provider_redirect = $this->_oauth->set('redirect_uri', 'http://' . $_SERVER['SERVER_NAME'] . '/oauth/' . $this->name . '/complete?from=' . $from)->authorize_uri();
